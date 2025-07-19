@@ -5,6 +5,10 @@
 [![Last Commit](https://img.shields.io/github/last-commit/Anna-Pank/Furniture-site)](https://github.com/Anna-Pank/Furniture-site/commits/main)
 [![GitHub License](https://img.shields.io/github/license/Anna-Pank/Furniture-site)](https://github.com/Anna-Pank/Furniture-site/blob/main/LICENSE)
 
+## 🌐 Живая демонстрация
+
+[![Website](https://img.shields.io/badge/🌐_Live_Demo-0088CC?style=for-the-badge&logo=github&logoColor=white)](https://anna-pank.github.io/Furniture-site/)
+
 ## ✨ Особенности
 - 🔍 Интеллектуальный поиск и фильтрация товаров
 - 🛒 Корзина с локальным сохранением данных
