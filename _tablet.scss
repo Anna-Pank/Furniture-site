@@ -1,0 +1,128 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+    body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .center {   
+        padding-left: calc(50% - 360px);
+        padding-right: calc(50% - 360px);
+        max-width: 100%; 
+        box-sizing: border-box;
+    }
+    button  {   
+        transition: none;
+    }
+
+    .star {
+        display: none;
+    }
+
+    .title {    
+        width: 100%;
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .description {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .intro-btn:hover {  
+        background: $color-text;
+        color: $color-text-page23;
+    }
+
+    .intro-link   { 
+        display: none;
+    }
+
+    .intro-link-adapt   {   
+        display: inline-block;
+    }
+
+    .intro {
+        padding-top: 120px;
+        padding-bottom: 80px;
+        background-size: 30px;
+        background-position: top 50px left -15px, top 30px left 20px,
+                            bottom 100px right 50px, bottom 50px right 20px;
+    }
+
+    .page-2    {
+            display: none;
+    }
+
+    .page-3__title  {
+        font-size: 46px;
+        line-height: 49px;
+        text-align: left;
+        padding-bottom: 48px;
+    }
+    
+    .star-min {
+        display: none;
+    }
+
+    .mini-card  {
+        flex-direction: column-reverse;
+        max-width: 100%;
+        width: 100%;
+        &__btn  {
+            margin-left: 29px;
+            &:hover {
+                background: $color-text;
+                color: $color-text-page23;
+            }
+        }
+        &__description  {
+            margin-left: 29px;
+        }
+        &__name    {
+            margin-left: 29px;
+            margin-top: 29px;
+        }
+        &__info    {
+            width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+            height: 310px;
+            border-top-left-radius: 0;
+            border-bottom-right-radius: 30px;
+            padding-left: 0;
+            padding-top: 0px;
+        }
+        &__img  {
+            border-top-left-radius: 30px;
+            border-bottom-right-radius: 0;
+        }
+        &_reverce   {
+            display: flex;
+            flex-direction: column;
+        }
+        &__img_reverce  {
+            border-bottom-left-radius: 0;
+            border-top-right-radius: 30px;
+        }
+        &__info_reverce {
+            border-bottom-left-radius: 30px;
+            border-top-right-radius: 0;
+            height: 370px;
+        }
+        &__info_big    {
+            height: 425px;
+        }
+        &__info_super-big    {
+            height: 430px;
+        }
+    }
+
+    .footer {
+        height: 100px;
+        &__title {
+            padding-top: 35px;
+        }
+    }
+}
