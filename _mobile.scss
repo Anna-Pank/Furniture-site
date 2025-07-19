@@ -1,0 +1,215 @@
+@media  (max-width: 767px)  {
+
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header    {
+        padding-top: 32px;
+        border-bottom: transparent;
+
+        &__input    {
+            display: none;
+        }
+        &__logo    {
+            width: 99px;
+        }
+    }
+
+    .menu   {
+        display: none;
+        &-mob   {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+    }
+
+    .introduction-section   {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__title    {
+            font-size: 48px;
+            text-align: center;
+            line-height: 59px;
+            margin-top: 29px;
+            &_catalog   {
+                font-size: 48px;
+                line-height: 59px;
+                text-align: center;
+            }
+        }
+        &__text    {
+            font-size: 16px;
+            text-align: center;
+        }
+        &__link    {
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+
+    .top-cart   {
+        &__title    {
+            font-size: 48px;
+            line-height: 59px;
+            text-align: center;
+            padding-top: 82px;
+        }
+    }
+
+    .cart   {
+        margin-top: 92px;
+        display: flex;
+        flex-direction: column;
+
+        &__product-box  {
+            display: none;
+        }
+
+        &__img  {
+            display: none;
+        }
+
+        &__info-title   {
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        &__info-text    {
+            font-size: 12px;
+            line-height: 15px;
+        }
+
+        &__info-price   {
+            font-size: 12px;
+            line-height: 15px;
+        }
+
+        &__item    {
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+        &__btm     {
+            width: 165px;
+            font-size: 12px;
+            line-height: 15px;
+            &-box   {
+                gap: 14px;
+            }
+        }
+
+        &__form-btm    {
+            margin-left: 26px;
+        }
+    }
+
+    .title  {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .for    {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+
+        &__item    {
+            grid-column: 1/-1;
+            height: 375px;
+            font-size: 28px;
+            text-align: center;
+            &_big   {
+                height: 243px;
+            }
+        }
+        &-box    {
+            margin-top: 32px;
+        }
+    }
+
+    .special    {
+        margin-top: 32px;
+    }
+
+    .product    {
+        &__name    {
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &__price    {
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+
+    .catalog    {
+        margin-top: 36px;
+        &-header {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+    }
+
+    .breadcrumbs    {
+        &__link    {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 32px;
+        }
+    }
+
+    .filters    {
+        flex-direction: column-reverse;
+        margin-top: 14px;
+
+        &__select   {
+            width: 203px;
+            padding-left: 19px;
+            background-position: 161px 15px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+            text-align: left;
+            &_1    {
+                width: 164px;
+                background-position: 122px 15px;
+            }
+        }
+    }
+
+    .filter-form    {
+        position: absolute;
+        width: 287px;
+        height: 950px;
+        top: 100px;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        gap: 36px;
+        &__fieldset_type {
+            margin-bottom: 0px;
+        }
+    }
+
+    .div    {
+        margin-top: 36px;
+        margin-bottom: 32px;
+    }
+
+    .footer    {
+        padding-bottom: 33px;
+        &-content   {
+            justify-content: center;
+            gap: 71px;
+        }
+        &-info  {
+            gap: 100px;
+        }
+    }
+}
